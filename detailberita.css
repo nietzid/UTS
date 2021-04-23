@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "Gardian";
+    src: url(GauntletThin_TB.otf);
+}
+
+* {
+    font-family: "Gardian";
+}
+
+header{
+    margin: auto;
+}
+
+#nav a{
+    font-family: "Karla";
+    font-size: 14px;
+    padding: 15px 15px;
+    font-palette: black;
+}
+.navbar-nav > li >a{
+    color:black;
+}
+
+
+body {
+    margin-top: auto;
+    margin: 0px;
+    background-color: white;
+}
+
+.kotak {
+    background-color: white;
+    margin: 0px 120px 20px 120px;
+    padding: 10px 10px 10px 10px;
+}
+
+.img {
+    padding: 0px 40px 5px 40px;
+}
+
+.text {
+    font-style: url(GauntletThin_TB.otf);
+    padding: 20px 40px 20px 40px;
+    text-align: justify;
+}
+
+.text1 {
+    font-style: url(GauntletThin_TB.otf);
+    padding: 20px 40px 0px 40px;
+    text-align: justify;   
+}
+
+.text2 {
+    padding: 0px 40px 0px 40px;
+    text-align: justify;
+    font-size: 10px;   
+}
+
+footer{
+    background-color: #fbf7f5;
+    padding: 15px 25px 15px 25px;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+}
+
+footer p{
+    font-family: ABeeZee;
+    font-size: 11px;
+}
+.row a{
+    color: black;
+    margin-left: 20px;
+}
+.iconify{
+    width: 30px;
+    height: 30px;
+}
+
+li.container.list > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.container.list{
+    margin: 10px;
+}
