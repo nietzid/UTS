@@ -1,6 +1,7 @@
+@import url('http://fonts.cdnfonts.com/css/gauntlet');
+
 @font-face {
-    font-family: "Gardian";
-    src: url(GauntletThin_TB.otf);
+    font-family: 'Gauntlet Thin', sans-serif;
 }
 
 * {
@@ -39,13 +40,13 @@ body {
 }
 
 .text {
-    font-style: url(GauntletThin_TB.otf);
+    font-family: 'Gauntlet Thin', sans-serif;
     padding: 20px 40px 20px 40px;
     text-align: justify;
 }
 
 .text1 {
-    font-style: url(GauntletThin_TB.otf);
+    font-family: 'Gauntlet Thin', sans-serif;
     padding: 20px 40px 0px 40px;
     text-align: justify;   
 }

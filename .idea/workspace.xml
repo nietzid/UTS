@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="322cbd08-69ac-4164-8334-bc09ac5571b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="322cbd08-69ac-4164-8334-bc09ac5571b3" name="Default Changelist" comment="gabungan reza ucup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fpmipa.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/fpmipa.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/herbert.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/herbert.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/berita.html" beforeDir="false" afterPath="$PROJECT_DIR$/berita.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/detail-dosen.html" beforeDir="false" afterPath="$PROJECT_DIR$/detail-dosen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headerfooter.html" beforeDir="false" afterPath="$PROJECT_DIR$/headerfooter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prestasi.html" beforeDir="false" afterPath="$PROJECT_DIR$/prestasi.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,8 +79,23 @@
       <workItem from="1619095254084" duration="2018000" />
       <workItem from="1619144336969" duration="5862000" />
       <workItem from="1619150375523" duration="14022000" />
-      <workItem from="1619178260479" duration="10692000" />
+      <workItem from="1619178260479" duration="11407000" />
     </task>
+    <task id="LOCAL-00001" summary="gabungan reza ucup">
+      <created>1619199630608</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1619199630608</updated>
+    </task>
+    <task id="LOCAL-00002" summary="gabungan reza ucup">
+      <created>1619199673860</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619199673860</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,5 +111,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="gabungan reza ucup" />
+    <option name="LAST_COMMIT_MESSAGE" value="gabungan reza ucup" />
   </component>
 </project>
