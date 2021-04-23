@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="322cbd08-69ac-4164-8334-bc09ac5571b3" name="Default Changelist" comment="" />
+    <list default="true" id="322cbd08-69ac-4164-8334-bc09ac5571b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fpmipa.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/fpmipa.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/herbert.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/herbert.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/berita.html" beforeDir="false" afterPath="$PROJECT_DIR$/berita.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detail-dosen.html" beforeDir="false" afterPath="$PROJECT_DIR$/detail-dosen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headerfooter.html" beforeDir="false" afterPath="$PROJECT_DIR$/headerfooter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prestasi.html" beforeDir="false" afterPath="$PROJECT_DIR$/prestasi.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +27,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -27,6 +39,7 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1rW9bUGTMkDqoU0Odu01CZL6Un9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -44,6 +57,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Arfiansyah\PhpstormProjects\UTS\admin\mhs" />
+      <recent name="C:\Users\Arfiansyah\PhpstormProjects\UTS\assets\img" />
+      <recent name="C:\Users\Arfiansyah\PhpstormProjects\UTS\css" />
       <recent name="C:\Users\Arfiansyah\PhpstormProjects\UTS" />
       <recent name="C:\Users\Arfiansyah\PhpstormProjects\UTS\assets" />
     </key>
@@ -70,11 +86,22 @@
       <workItem from="1619095254084" duration="2018000" />
       <workItem from="1619144336969" duration="5862000" />
       <workItem from="1619150375523" duration="14022000" />
-      <workItem from="1619178260479" duration="4966000" />
+      <workItem from="1619178260479" duration="10692000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
