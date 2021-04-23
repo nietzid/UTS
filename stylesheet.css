@@ -1,0 +1,44 @@
+header{
+    margin-top: 25px;
+}
+
+#nav a{
+    font-family: "Karla";
+    font-size: 14px;
+    padding: 15px 15px;
+    font-palette: black;
+}
+.navbar-nav > li >a{
+    color:black;
+}
+
+footer{
+    background-color: #fbf7f5;
+    padding: 15px 25px 15px 25px;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+}
+
+footer p{
+    font-family: ABeeZee;
+    font-size: 11px;
+}
+.row a{
+    color: black;
+    margin-left: 20px;
+}
+.iconify{
+    width: 30px;
+    height: 30px;
+}
+
+li.container.list > * {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+.container.list{
+    margin: 10px;
+}

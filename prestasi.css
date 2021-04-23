@@ -1,0 +1,11 @@
+h1{
+    margin: 30px 0 0 200px;
+}
+
+section.pt-3.pb-3 > *{
+    font-family: Karla;
+}
+
+.carousel-inner{
+    horiz-align: right;
+}
