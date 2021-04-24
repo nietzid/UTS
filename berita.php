@@ -4,14 +4,16 @@
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
     <title>Title</title>
     <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
     <link href="http://fonts.cdnfonts.com/css/abeezee" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="berita.css">
 
 </head>
 <body>
-<header class="container" style="background-color: #fbf7f5;">
+<header class="container">
     <nav class="navbar navbar-expand-sm bg-light">
             <a class="navbar-brand navbar-left" href="#">
                 <img src="assets/img/fpmipa.png" alt="" style="width: 150px; height: 50px;">
@@ -41,29 +43,81 @@
 </header>
 
 <main>
-    <div class="container" style="background-color: #fbf7f5;">
-        <div class="row">
-            <div class="col-sm-6" style="background-color: #fbf7f5;">
-                <img src="assets/img/herbert.png" alt="" class="rounded-circle" style="margin: 100px">
-            </div>
-            <div class="col-sm-6">
-                <div class="card" style="width: 27rem;margin: 100px 100px 100px 0px; font-family: ABeeZee; border: none;">
-                    <div class="card-body">
-                        <h1 class="card-title">Herbert Siregar M.T</h1>
-                        <h5 class="card-subtitle mb-2">Universitas Pendidikan Indonesia</h5>
-                        <p><br><br></p>
-                        <p class="card-text" style="font-size: 14px">(Pendidikan, Sistem Informasi)<br>
-                            SINTA ID: 5991008 <br>
-                            SCOPUS ID: 57193880372 <br>
-                            GOOGLE SCHOLAR ID: 3YFkydUAAAAJ <br>
-                            email: herbert&#64;upi.edu <br>
-                        </p>
-                        <button type="button" class="btn btn-dark" style="width: 80%">Get Contact</button>
+    <h1>Berita</h1>
+    <section class="pt-3 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h3 class="mb-3"></h3>
+                </div>
+                <div class="col-6 text-right">
+                    <a class="btn btn-white mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                        <i class="fa fa-arrow-left"></i>
+                    </a>
+                    <a class="btn btn-white mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
+                        <i class="fa fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="col-12">
+                    <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+
+                                    <?php
+										include "koneksi.php";
+										$sql="select * from berita order by id desc";
+								
+										$hasil=mysqli_query($kon,$sql);
+										$no=0;
+										while ($data = mysqli_fetch_array($hasil)) {
+											$no++;
+								
+											if ($no % 3 === 0){
+												?>
+												<div class="carousel-item">
+	                                				<div class="row">
+														<div class="col-md-4 mb-3">
+															<div class="card">
+																<img class="img-fluid" src = "admin/berita/foto_berita/<?= $data["foto"]; ?>" width="550">
+																<div class="card-body">
+																	<h4 class="card-title"><?php echo $data["judul"];   ?></h4>
+																	<p class="card-text"><?php echo substr($data['isi'], 0, 50);?></p>
+																	<a href="detailberita.php?id=<?php echo htmlspecialchars($data['id']); ?>" class="btn btn-info" role="button">Detail</a>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<?php
+											}else{
+												?>
+												<div class="col-md-4 mb-3">
+												<div class="card">
+													<img class="img-fluid" src = "admin/berita/foto_berita/<?= $data["foto"]; ?>" width="550">
+													<div class="card-body">
+														<h4 class="card-title"><?php echo $data["judul"];   ?></h4>
+														<p class="card-text"><?php echo substr($data['isi'], 0, 50);?></p>
+														<a href="detailberita.php?id=<?php echo htmlspecialchars($data['id']); ?>" class="btn btn-info" role="button">Detail</a>
+													</div>
+												</div>
+											</div>
+											<?php
+											}
+											?>
+										<?php
+										}
+									?>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
 </main>
 
 <footer class="page-footer font-small blue pt-4">
@@ -88,7 +142,7 @@
                 <ul class="list-unstyled mb-0">
                     <li class="container list">
                         <span class="iconify" class="text-dark" data-icon="bi:clock-history" data-inline="false"></span>
-                        <a href="#!" class="text-dark">Senin - Jumat: 08:00 -15:00</a>
+                        <a href="#!" class="text-dark">Senin - Jumat: 08:00-15:00</a>
                     </li>
                     <li class="container list">
                         <span class="iconify" data-icon="bi:whatsapp" data-inline="false"></span>
@@ -138,6 +192,7 @@
 <!-- Footer -->
 <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 
 </body>

@@ -192,7 +192,7 @@
                 </div>
             
                 <button type="submit" name="submit" class="btn btn-lg btn-primary btn-">Submit</button>
-                <a href="landingPage.html" class="btn btn-lg btn-primary" role="button">Back</a>
+                <a href="index.html" class="btn btn-lg btn-primary" role="button">Back</a>
             </form>
         
             <br><br>

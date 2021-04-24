@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="322cbd08-69ac-4164-8334-bc09ac5571b3" name="Default Changelist" comment="gabungan reza ucup">
+    <list default="true" id="322cbd08-69ac-4164-8334-bc09ac5571b3" name="Default Changelist" comment="perbaikan detail berita">
+      <change afterPath="$PROJECT_DIR$/berita.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detailberita.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detailprestasi.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detailprestasi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koneksi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prestasi.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/berita.css" beforeDir="false" afterPath="$PROJECT_DIR$/berita.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detail-dosen.html" beforeDir="false" afterPath="$PROJECT_DIR$/detail-dosen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detailberita.css" beforeDir="false" afterPath="$PROJECT_DIR$/detailberita.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detailberita.html" beforeDir="false" afterPath="$PROJECT_DIR$/detailberita.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headerfooter.html" beforeDir="false" afterPath="$PROJECT_DIR$/headerfooter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prestasi.css" beforeDir="false" afterPath="$PROJECT_DIR$/prestasi.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publicregis.php" beforeDir="false" afterPath="$PROJECT_DIR$/publicregis.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,12 +48,15 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1rW9bUGTMkDqoU0Odu01CZL6Un9" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -79,7 +98,8 @@
       <workItem from="1619095254084" duration="2018000" />
       <workItem from="1619144336969" duration="5862000" />
       <workItem from="1619150375523" duration="14022000" />
-      <workItem from="1619178260479" duration="11407000" />
+      <workItem from="1619178260479" duration="12582000" />
+      <workItem from="1619232458837" duration="383000" />
     </task>
     <task id="LOCAL-00001" summary="gabungan reza ucup">
       <created>1619199630608</created>
@@ -95,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619199673860</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="perbaikan detail berita">
+      <created>1619200384012</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619200384012</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,9 +138,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="gabungan reza ucup" />
-    <option name="LAST_COMMIT_MESSAGE" value="gabungan reza ucup" />
+    <MESSAGE value="perbaikan detail berita" />
+    <option name="LAST_COMMIT_MESSAGE" value="perbaikan detail berita" />
   </component>
 </project>
