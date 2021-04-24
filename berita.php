@@ -20,7 +20,7 @@
             </a>
             <ul class="navbar-nav navbar-right ml-auto" id="nav">
                 <li class="nav-item">
-                    <a href="home.html" class="nav-link">HOME</a>
+                    <a href="home.php" class="nav-link">HOME</a>
                 </li>
                 <li class="nav-item">
                     <a href="about.html" class="nav-link">ABOUT</a>
@@ -68,7 +68,6 @@
                                     <?php
 										include "koneksi.php";
 										$sql="select * from berita order by id desc";
-								
 										$hasil=mysqli_query($kon,$sql);
 										$no=0;
 										while ($data = mysqli_fetch_array($hasil)) {

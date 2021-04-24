@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="322cbd08-69ac-4164-8334-bc09ac5571b3" name="Default Changelist" comment="Backend berita prestasi">
+    <list default="true" id="322cbd08-69ac-4164-8334-bc09ac5571b3" name="Default Changelist" comment="update">
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/berita/foto_berita/6083b11cc99d5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/berita/foto_berita/6083b12f59f8a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/berita/foto_berita/6083b1a789a70.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/berita/foto_berita/6083b1ecf3081.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/berita/foto_berita/6083b220bb25a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/berita.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/detailberita.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/berita.php" beforeDir="false" afterPath="$PROJECT_DIR$/berita.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detail-dosen.html" beforeDir="false" afterPath="$PROJECT_DIR$/detail-dosen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detailberita.php" beforeDir="false" afterPath="$PROJECT_DIR$/detailberita.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detailprestasi.php" beforeDir="false" afterPath="$PROJECT_DIR$/detailprestasi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landingPage.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prestasi.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/prestasi.php" beforeDir="false" afterPath="$PROJECT_DIR$/prestasi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publicregis.php" beforeDir="false" afterPath="$PROJECT_DIR$/publicregis.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,9 +61,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../xampp/php/php-cgi.exe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -64,10 +75,10 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Arfiansyah\PhpstormProjects\UTS" />
       <recent name="C:\Users\Arfiansyah\PhpstormProjects\UTS\admin\mhs" />
       <recent name="C:\Users\Arfiansyah\PhpstormProjects\UTS\assets\img" />
       <recent name="C:\Users\Arfiansyah\PhpstormProjects\UTS\css" />
-      <recent name="C:\Users\Arfiansyah\PhpstormProjects\UTS" />
       <recent name="C:\Users\Arfiansyah\PhpstormProjects\UTS\assets" />
     </key>
   </component>
@@ -107,7 +118,7 @@
       <workItem from="1619144336969" duration="5862000" />
       <workItem from="1619150375523" duration="14022000" />
       <workItem from="1619178260479" duration="12582000" />
-      <workItem from="1619232458837" duration="3809000" />
+      <workItem from="1619232458837" duration="5957000" />
     </task>
     <task id="LOCAL-00001" summary="gabungan reza ucup">
       <created>1619199630608</created>
@@ -137,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619232959984</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update">
+      <created>1619241993368</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1619241993368</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +178,7 @@
     <MESSAGE value="gabungan reza ucup" />
     <MESSAGE value="perbaikan detail berita" />
     <MESSAGE value="Backend berita prestasi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Backend berita prestasi" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
