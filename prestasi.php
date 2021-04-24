@@ -27,7 +27,7 @@
                 </li>
                 <li class="nav-item">
                     <a href="dosen.html" class="nav-link">DOSEN</a>
-                </li>
+                </li>A
                 <li class="nav-item">
                     <a href="berita.php" class="nav-link">BERITA</a>
                 </li>

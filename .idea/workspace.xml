@@ -1,24 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="322cbd08-69ac-4164-8334-bc09ac5571b3" name="Default Changelist" comment="perbaikan detail berita">
-      <change afterPath="$PROJECT_DIR$/berita.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/detailberita.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/detailprestasi.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/detailprestasi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koneksi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prestasi.php" afterDir="false" />
+    <list default="true" id="322cbd08-69ac-4164-8334-bc09ac5571b3" name="Default Changelist" comment="Backend berita prestasi">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/berita.css" beforeDir="false" afterPath="$PROJECT_DIR$/berita.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/detail-dosen.html" beforeDir="false" afterPath="$PROJECT_DIR$/detail-dosen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/detailberita.css" beforeDir="false" afterPath="$PROJECT_DIR$/detailberita.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/detailberita.html" beforeDir="false" afterPath="$PROJECT_DIR$/detailberita.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headerfooter.html" beforeDir="false" afterPath="$PROJECT_DIR$/headerfooter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prestasi.css" beforeDir="false" afterPath="$PROJECT_DIR$/prestasi.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/publicregis.php" beforeDir="false" afterPath="$PROJECT_DIR$/publicregis.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/berita.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detailberita.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landingPage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prestasi.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prestasi.php" beforeDir="false" afterPath="$PROJECT_DIR$/prestasi.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +37,11 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.0">
+    <include_path>
+      <path value="$PROJECT_DIR$/../../../../xampp/php/php-cgi.exe" />
+    </include_path>
+  </component>
   <component name="ProjectId" id="1rW9bUGTMkDqoU0Odu01CZL6Un9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -61,10 +56,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/login" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../xampp/php/php-cgi.exe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -76,12 +71,25 @@
       <recent name="C:\Users\Arfiansyah\PhpstormProjects\UTS\assets" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHP Script.berita.php">
     <configuration name="berita.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UTS/berita.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UTS/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="berita.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/berita.php">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 8.0" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.berita.php" />
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.berita.html" />
       </list>
     </recent_temporary>
@@ -99,7 +107,7 @@
       <workItem from="1619144336969" duration="5862000" />
       <workItem from="1619150375523" duration="14022000" />
       <workItem from="1619178260479" duration="12582000" />
-      <workItem from="1619232458837" duration="383000" />
+      <workItem from="1619232458837" duration="3809000" />
     </task>
     <task id="LOCAL-00001" summary="gabungan reza ucup">
       <created>1619199630608</created>
@@ -122,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619200384012</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Backend berita prestasi">
+      <created>1619232959984</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1619232959984</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +159,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="gabungan reza ucup" />
     <MESSAGE value="perbaikan detail berita" />
-    <option name="LAST_COMMIT_MESSAGE" value="perbaikan detail berita" />
+    <MESSAGE value="Backend berita prestasi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Backend berita prestasi" />
   </component>
 </project>
